@@ -12,7 +12,7 @@ import java.util.UUID;
 
 
 public class JwtTokenProvider {
-    private static final String TOKEN_ISSUER = "https://FoodOrderingApp.io";
+    private final String TOKEN_ISSUER = "https://FoodOrderingApp.io";
 
     private final Algorithm algorithm;
 
